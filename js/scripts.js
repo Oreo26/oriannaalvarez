@@ -12,3 +12,7 @@ let pageBackground = document.querySelector("body");
 
 // Set class name from stored values
 pageBackground.className = backgrounds[numRand];
+
+// Use/Invoke/Call Light Gallery Library
+
+lightGallery(document.getElementById("gallery"));
