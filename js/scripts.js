@@ -19,8 +19,4 @@ lightGallery(document.getElementById("gallery"));
 
 const portfolio = document.getElementById("portfolio");
 
-lightGallery(portfolio, {
-  selector: "a",
-  mode: "lg-slide-skew-cross",
-  download: false
-});
+lightGallery(portfolio);
