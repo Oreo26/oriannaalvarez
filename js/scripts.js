@@ -16,3 +16,5 @@ pageBackground.className = backgrounds[numRand];
 // Use/Invoke/Call Light Gallery Library
 
 lightGallery(document.getElementById("gallery"));
+
+const portfolio = document.getElementById("portfolio");
