@@ -49,3 +49,23 @@ body {
     #8e9eab
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+/* Custom Gallery */
+.lg-backdrop.in {
+  opacity: 0.5;
+}
+
+.lg-image {
+  border: 10px solid #fff;
+}
+
+/* LightGallery Position Correction */
+div.lg-item,
+div.lg-loaded,
+div.lg-current,
+div.lg-complete {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
